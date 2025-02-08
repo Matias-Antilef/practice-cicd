@@ -1,5 +1,4 @@
 name: Say hello
-s
 on:
   push:
     branches:
