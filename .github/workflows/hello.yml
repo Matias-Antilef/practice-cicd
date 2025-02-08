@@ -11,3 +11,7 @@ jobs:
       - name: Echo the message
         run: |
           echo "Hola Shall!"
+      - name: Dime la fecha
+        run: date
+      - name: Ver archivos del directorio actual
+        run: ls -l
