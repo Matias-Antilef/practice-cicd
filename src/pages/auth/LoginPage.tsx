@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
-import { PublicRoutes, StudentRoutes, TeacherRoutes } from "@/routes/routes";
+import { TeacherRoutes } from "@/routes/routes";
 import { useUserContext } from "@/context/UserProvider";
 import { Roles } from "@/models/user.model";
-import decodeJWT from "@/utilities/decodeJWT";
 import { TextField } from "@/pages/auth/components/TextField";
 import { Button } from "@/components/ui/button";
 import { LoginModel } from "./models/auth.model";

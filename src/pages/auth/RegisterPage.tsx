@@ -2,7 +2,6 @@ import { useForm } from "react-hook-form";
 import { TextField } from "@/pages/auth/components/TextField";
 import { Button } from "@/components/ui/button";
 import { RegisterModel } from "./models/auth.model";
-import { PublicRoutes } from "@/routes/routes";
 import NavForm from "./components/NavForm";
 
 function RegisterPage() {
